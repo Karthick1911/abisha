@@ -2,6 +2,7 @@
 
 <head>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
@@ -35,8 +36,6 @@
         }
 
         .image2 {
-            -moz-opacity: 0.5;
-            -khtml-opacity: 0.5;
             opacity: 0.5;
             left: 50%;
             top: 30%;
@@ -65,37 +64,106 @@
             height: 250px;
             width: 250px;
         }
-        .topic{
+
+        .topic {
             text-align: center;
-            padding-top: 8px;
+            padding-top: 10px;
         }
-        .center{
+
+        .center {
             border-radius: 20%;
             align-items: center;
         }
-        .pic1{
-            height:200px;
-            width:200px;
+
+        .pic1 {
+            height: 200px;
+            width: 200px;
         }
-        .pic2{
-            height:200px;
-            width:200px;
+
+        .pic2 {
+            height: 200px;
+            width: 200px;
         }
-        .pic3{
-            height:200px;
-            width:100px;
+
+        .pic3 {
+            height: 200px;
+            width: 100px;
         }
-        .pic4{
-            height:195px;
-            width:150px;
+
+        .pic4 {
+            height: 195px;
+            width: 150px;
         }
-        .product{
+
+        .product {
             text-align: center;
         }
-        .buy{
+
+        .buy {
             align-content: center;
-            margin:auto;
+            margin: auto;
             display: flex;
+            background-color: #59a310;
+            border-color: #59a310;
+            color: white;
+        }
+
+        .bu {
+            align-content: center;
+            margin: auto;
+            display: flex;
+            background-color: rgb(197, 8, 8);
+            border-color: rgb(197, 8, 8);
+            color: white;
+        }
+
+        .bgimage1 {
+            padding-top: 20px;
+            height: 75%;
+            width: 100%;
+        }
+
+        .top-pos {
+            position: absolute;
+            top: -350px;
+            color: white;
+            font-size: 20px;
+        }
+
+        .youtube {
+            top: -350px;
+            height: 300px;
+            width: 500px;
+            position: absolute;
+        }
+
+        .bgimage2 {
+            height: 500px;
+            width: 345px;
+        }
+
+        .bgimage3 {
+            height: 500px;
+            width: 325px;
+        }
+
+        .p1 {
+            padding-top: 20px;
+            font-size: 4mm;
+            color: #59a310;
+        }
+
+        .p2 {
+            font-style: italic;
+            font-size: 6mm;
+            font-weight: 500;
+        }
+
+        .top-end {
+            margin-left: 300px;
+            color: #59a310;
+            border-color: #59a310;
+            background-color: white;
         }
     </style>
 </head>
@@ -164,7 +232,7 @@
         </div>
         <div class="col-5 p-4">
             <h3>About us</h3>
-            <p>Since 1999, Internet Marketing Ninjas has mastered the art of creating expert content
+            <p align="justify">Since 1999, Internet Marketing Ninjas has mastered the art of creating expert content
                 that goes viral, earns trusted links, and ranks at the top of Google. Looking to transform
                 your content marketing strategy? Learn how our Ninja team can help by scheduling a FREE
                 consultation today.</p>
@@ -179,21 +247,22 @@
     </div>
     <h3 class="topic">Featured products</h3>
     <div class="row">
-       <div class="col-1">
+        <div class="col-1">
 
-       </div>
-       <div class="col-1">
-            <button class="center"><</button>
-       </div>
-       <div class="col-2">
+        </div>
+        <div class="col-1">
+            <button class="center">
+                << </button>
+        </div>
+        <div class="col-2">
             <img class="pic1" src="./images/pic1.jpg">
             <p class="product">Herbalife Formula</p>
             <p class="product">₹2000.00</p>
-            <button class="buy">Buy Now</button>
-       </div>
-       <div class="col-2">
-        <img class="pic2" src="./images/pic2.jpg">
-        <p class="product">Duo 30 Day Program</p>
+            <button class="bu">Buy Now</button>
+        </div>
+        <div class="col-2">
+            <img class="pic2" src="./images/pic2.jpg">
+            <p class="product">Duo 30 Day Program</p>
             <p class="product">₹2000.00</p>
             <button class="buy">Buy Now</button>
         </div>
@@ -210,9 +279,191 @@
             <button class="buy">Buy Now</button>
         </div>
         <div class="col-1">
-            <button class="center">></button>
-       </div>
+            <button class="center">>></button>
+        </div>
     </div>
+    <img class="bgimage1" src="./images/bgimage1.jpg">
+    <div class="row">
+        <div class="col-2">
+
+        </div>
+        <div class="col-4 p-4">
+            <div class="top-pos">
+                <h3>Our Story</h3>
+                <p align="justify">Since 1999, Internet Marketing Ninjas has mastered the art of creating expert content
+                    that goes viral, earns trusted links, and ranks at the top of Google. Looking to transform
+                    your content marketing strategy? Learn how our Ninja team can help by scheduling a FREE
+                    consultation today.</p>
+                <button type="button">View more</button>
+            </div>
+        </div>
+        <div class="col-4 p-4">
+            <iframe class="youtube" src="https:www.youtube.com/embed/SnuYD9_nrD4">
+            </iframe>
+        </div>
+        <div class="col-2">
+
+        </div>
+    </div>
+    <h3 class="topic">Best sellers</h3>
+    <div class="row">
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <button class="center">
+                << </button>
+        </div>
+        <div class="col-2">
+            <img class="pic1" src="./images/pic1.jpg">
+            <p class="product">Herbalife Formula</p>
+            <p class="product">₹2000.00</p>
+            <button class="bu">Buy Now</button>
+        </div>
+        <div class="col-2">
+            <img class="pic2" src="./images/pic2.jpg">
+            <p class="product">Duo 30 Day Program</p>
+            <p class="product">₹2000.00</p>
+            <button class="buy">Buy Now</button>
+        </div>
+        <div class="col-2">
+            <img class="pic3" src="./images/pic3.jpg">
+            <p class="product">Herbalife Cell U Loss</p>
+            <p class="product">₹2000.00</p>
+            <button class="buy">Buy Now</button>
+        </div>
+        <div class="col-2">
+            <img class="pic4" src="./images/pic4.jpg">
+            <p class="product">Herbalife Protein Formula</p>
+            <p class="product">₹2000.00</p>
+            <button class="buy">Buy Now</button>
+        </div>
+        <div class="col-1">
+            <button class="center">>></button>
+        </div>
+    </div>
+    <h3 class="topic">Our Gallery</h3>
+    <div class="row">
+        <div class="col-3">
+            <img class="bgimage2" src="./images/bgimage2.jpg">
+        </div>
+        <div class="col-3">
+            <img class="bgimage2" src="./images/bgimage21.jpg">
+        </div>
+        <div class="col-3">
+            <img class="bgimage2" src="./images/bgimage22.jpg">
+        </div>
+        <div class="col-3">
+            <img class="bgimage3" src="./images/bgimage23.jpg">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-2">
+
+        </div>
+        <div class="col-4">
+            <p class="p1">RECENT NEWS</p>
+            <p class="p2">Our Latest News</p>
+        </div>
+        <div class="col-4 p-4">
+            <button class="top-end">VIEW MORE</button>
+        </div>
+        <div class="col-2">
+
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-2">
+
+        </div>
+        <div class="col-3">
+            <div class="card" style="width:250px">
+                <img class="card-img-top" src="./images/cont1.png" alt="Card image" style="width:250px">
+                <div class="card-body">
+                    <h6 class="card-title" style="color:#59a310;">THE NEW NUTRITION CLUB</h6>
+                    <p class="card-text" style="text-align: justify;">Internet Marketing Ninjas has mastered the art of
+                        creating expert content
+                        that goes viral, earns trusted links</p>
+                    <input type="text" style="border: 0px" value="1April           5Comments" />
+                </div>
+            </div>
+        </div>
+        <div class="col-3">
+            <div class="card" style="width:250px">
+                <img class="card-img-top" src="./images/cont1.png" alt="Card image" style="width:250px">
+                <div class="card-body">
+                    <h6 class="card-title" style="color:#59a310;">THE NEW NUTRITION CLUB</h6>
+                    <p class="card-text" style="text-align: justify;">Internet Marketing Ninjas has mastered the art of
+                        creating expert content
+                        that goes viral, earns trusted links</p>
+                    <input type="text" style="border: 0px" value="1April           5Comments" />
+                </div>
+            </div>
+        </div>
+        <div class="col-3">
+            <div class="card" style="width:250px">
+                <img class="card-img-top" src="./images/cont1.png" alt="Card image" style="width:250px">
+                <div class="card-body">
+                    <h6 class="card-title" style="color:#59a310;">THE NEW NUTRITION CLUB</h6>
+                    <p class="card-text" style="text-align: justify;">Internet Marketing Ninjas has mastered the art of
+                        creating expert content
+                        that goes viral, earns trusted links</p>
+                    <input type="text" style="border: 0px" value="1April           5Comments" />
+                </div>
+            </div>
+        </div>
+        <div class="col-1">
+
+        </div>
+    </div>
+    <div style="background-color: black;">
+        <div class="row">
+            <div class="col-2">
+
+            </div>
+            <div class="col-3 p-4">
+                <img style="height:50px; height:50px;" src="./images/icon.png">
+                <p style="text-align: justify; color:white;">Internet Marketing Ninjas has mastered the art of creating
+                    expert content
+                    that goes viral, earns trusted links</p>
+                <p></p>
+                <p style="text-align: justify; color:white;">Internet Marketing Ninjas has mastered the art of creating
+                    expert content
+                    that goes viral, earns trusted links</p>
+            </div>
+            <div class="col-3 p-4">
+                <p style="color:#59a310; font-weight: 500; font-size: 30px;">Contact Us</p>
+                <div>
+                    <p><i class="material-icons" style="font-size:30px; color:#59a310;">add_location</i>
+                        <span style="color:white;">No:350, Marketing Ninjas has</span>
+                    </p>
+                </div>
+                <div>
+                    <p><i class="material-icons" style="font-size:30px; color:#59a310;">local_phone</i>
+                        <span style="color:white;">9845972640</span>
+                    </p>
+                </div>
+                <div>
+                    <p><i class="material-icons" style="font-size:30px; color:#59a310;">local_post_office</i>
+                        <span style="color:white;">herbal@gmaiil.com</span>
+                    </p>
+                </div>
+            </div>
+            <div class="col-3 p-4">
+                <p style="color:#59a310; font-weight: 500; font-size:30px">Subscribe Us</p>
+                <p style="color:white; text-align: justify;">Marketing Ninjas has mastered the art of creating expert
+                    content
+                    that goes viral</p>
+                <button class="btn-success">View Email address ✉</button>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div style="background-color: rgb(175, 9, 9);">
+            <p style="text-align: center; padding-top:2px; padding-bottom:2px; color: white;">copyright@ 2020 Herbalife
+            </p>
+        </div>
+    </footer>
 </body>
 
 </html>
